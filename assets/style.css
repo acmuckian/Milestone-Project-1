@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+:root {
+    --header-font:"Fraunces", serif;
+}
+h2 {
+    font-family: var(--header-font);
+}
+
+#hero-image {
+    width:100%;
+    background: url(images/pexels-ono-kosuki-5974404.jpg)
+}
