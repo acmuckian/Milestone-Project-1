@@ -80,4 +80,21 @@ h2 {
     background-color: #513B2E;
     color:white;
 }
+
+footer {
+background-color:#B49777;
+margin:auto;
+padding:20px;
+}
+footer li {
+    list-style-type: none;
+}
+.social-media {
+    text-align: left;
+}
+.social-media i {
+    font-size: 100%;
+    padding:5px;
+    color: #000000;
+}
 @media query 
