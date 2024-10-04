@@ -38,9 +38,14 @@ h2 {
     text-align:center;
     top:400px;
     left: 200px;
+    animation: mymove 2s;
 }
+@keyframes mymove {
+    from {left: 0px;}
+  to {left: 200px;}
+  }
 #cover-text:hover {
-    background-color:#513B2E;
+    background-color:rgba(81, 59, 46, 0.7);
 }
 .logo {
     max-height:150px;
