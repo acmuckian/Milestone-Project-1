@@ -1,4 +1,4 @@
-#Tim's Woodworks Website Overview
+# Tim's Woodworks Website Overview
 
 Tim's Woodworks is a site for people seeking to sign up to woodworking
 and cabinetmaking courses, be they a beginner, a hobbyist or a professional 
@@ -6,20 +6,20 @@ looking to upgrade their skills. Tim's Woodworks will be useful for potential
 customers to see available courses, and reserve a spot on a course as well as seeing
 Tim's skills and abilities as an experienced craftsperson.
 
-##Features
+## Features
 
 ### Existing Features
 
-** Navigation Bar **
+**Navigation Bar**
 
 *This is featured on all four webpages, is fully responsive which includes the logo providing a link to the hompage, links to the 
 homepage, workshops, gallery, sign-up pages and is identical in each page to allow cohesive navigating.
 
 ![Picture of the Navigation bar(image.png)
 
-** Banner with Hero Image **
+**Banner with Hero Image**
 
-** Available Courses as Cards **
+**Available Courses as Cards**
 
 * Using the Bootstrap CSS for the cards with a few adjustments on the home page, this section neatly displays the upcoming courses in woodworking and 
 cabinetmaking at a glance where the interested customer can click on the button to go to the workshop html page to receive further
@@ -46,10 +46,14 @@ The site should be easy to navigate, aesthetically pleasing and easy for custome
 
 ### Design Choices 
 
-The website's primary colours are in a wood-based palette, using the colours: 
+The website's primary colours are in a wood-based palette, using the main colours: #513B2E #FFE8C8 #B49777 #573F35. 
+
+[WebAIM](https://webaim.org/resources/contrastchecker/) was used for accessibility purposes to look at the contrast of the colours against each other: for instance, #513B2E as foreground #FFE8C8 as background had a contrast ratio of 8.74:1, this was used for the navigation bar. 
+
  ### Wireframes
 
 Wireframes are as listed below:
+
 ## Testing 
 
 ## Deployment 
