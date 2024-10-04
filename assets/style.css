@@ -36,9 +36,10 @@ h2 {
     color:#FFE8C8; 
     background-color:rgba(81, 59, 46, 0.5);
     text-align:center;
-    top:400px;
+    top:300px;
     left: 200px;
     animation: mymove 2s ease-out;
+   border-radius: 25px;
 }
 @keyframes mymove {
     from {left: 0px;}
@@ -47,11 +48,12 @@ h2 {
 #cover-text:hover {
     background-color:rgba(81, 59, 46, 0.7);
 }
+
 .logo {
-    max-height:150px;
+    max-height:100px;
 }
 .navbar {
-    max-height:200px;
+    max-height:100px;
 }
 #navbar-banner {
     background-color: #FFE8C8;
@@ -60,5 +62,22 @@ h2 {
 }
 .nav-item {
     color:#573F35;
+}
+#row {
+    text-align:center;
+    color:#573F35;
+}
+.card-body {
+    background-color:rgba(81, 59, 46, 0.1);
+    font-family:var(--body-font);
+    color:#573F35;
+}
+.btn-outline-secondary {
+    color:#573F35;
+    border-color:#513B2E;
+}
+.btn-outline-secondary:hover {
+    background-color: #513B2E;
+    color:white;
 }
 @media query 
