@@ -1,15 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 :root {
     --header-font:"Fraunces", serif;
+    --body-font:"Afacad Flux", system-ui;
 }
 h2 {
     font-family: var(--header-font);
 }
+    p {
+     font-family:"Afacad Flux", sans-serif;
+     font-size:20px;
+    }
+}
+#hero-outer{
+    height:470px;
+    width:1280px;
 
+    position:relative;
+}
 #hero-image {
     width:100%;
-    background:url( https://www.pexels.com/photo/person-using-tools-in-woodworking-5974404/);
+    height:470px;
+    background: url(images/pexels-ono-kosuki-5974404.jpg) no-repeat center center;
+    overflow:hidden;
+   
+}
+
+#cover-text {
+    font: size 120%;
+    font-family:var(--header-font);
+    width:300px;
+    height:200px;
+    margin:auto;
+    padding-top:50px;
+    position:absolute;
+    color:#FFE8C8; 
+    background-color:rgba(81, 59, 46, 0.5);
+    text-align:center;
+    top:400px;
+    left: 200px;
+}
+#cover-text:hover {
+    background-color:#513B2E;
 }
 .logo {
+    max-height:150px;
+}
+.navbar {
     max-height:200px;
 }
+#navbar-banner {
+    background-color: #FFE8C8;
+    font-family: var(--body-font);
+    font-size:3.5vh;
+}
+.nav-item {
+    color:#573F35;
+}
+@media query 
