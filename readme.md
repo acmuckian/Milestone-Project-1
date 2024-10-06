@@ -61,3 +61,4 @@ Wireframes are as listed below:
 ## Credits 
 
 
+https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14
