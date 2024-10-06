@@ -81,22 +81,22 @@ h2 {
     color:white;
 }
 
-#contact {
+footer {
 background-color:#473c38;
 margin:auto;
 padding:20px;
 }
 
-#contact li {
+footer li {
     list-style-type: none;
 }
 
-#contact i {
+footer i {
     font-size: 100%;
     padding:5px;
     color: #FFE8C8;
 }
-.fa-regular {
+.social {
 color:#FFE8C8;
 }
 @media query 
