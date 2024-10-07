@@ -25,7 +25,7 @@ homepage, workshops, gallery, sign-up pages and is identical in each page to all
 cabinetmaking at a glance where the interested customer can click on the button to go to the workshop html page to receive further
 information. This is on a responsive grid system. 
 
-** Testimonials **
+**Testimonials**
 
 ## UX 
 
