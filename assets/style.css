@@ -89,10 +89,14 @@ body {
 
 }
 .card-img, .card-img-top, .card-img-bottom {
-    mask-image: linear-gradient(black, transparent);   
+    mask-image: linear-gradient(black, transparent);
+    transition-duration: 5s;
+    transition-delay: 2s;  
+    transition-property: mask-image;
 }
 .card-img-top:hover, card-img-top:focus {
     mask-image:unset;
+   
 }
 .btn-outline-secondary {
     color:#573F35;
