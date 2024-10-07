@@ -35,7 +35,7 @@ The site should be easy to navigate, aesthetically pleasing and easy for custome
 
 ### User Stories 
 
-** As a Customer: **
+**As a Customer:**
 
 *I want to be able to quickly see what courses are available.
 * I want to be able to easily navigate through the webpages of the website.
@@ -60,9 +60,13 @@ Wireframes are as listed below:
 
 ## Credits 
 
+ [W3 Schools guidance on Mask-Image and Masking in CSS](https://www.w3schools.com/css/css3_masking.asp)
+[This guide on how to make a footer stay at the bottom of the webpage](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
 
-https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14
+**Photographs:** 
 
-Photographs:
-
-https://www.flickr.com/photos/plj/6363104049
+* [LiCheh Pan's photograph on a dovetail](https://www.flickr.com/photos/plj/6363104049)
+* [Dominik Scythe](https://unsplash.com/photos/person-using-chisel-while-curving-wood-3cIvvzjE6Lk)
+* [Gary Yost](https://unsplash.com/photos/brown-wooden-birdhouse-with-red-flowers-2CAqKogS3Fk)
+* [Alex Gruber]()
+* [Ono Kosuki](https://www.pexels.com/photo/person-using-tools-in-woodworking-5974404/)
