@@ -56,9 +56,10 @@ body {
 #cover-text:hover {
     background-color:rgba(81, 59, 46, 0.7);
 }
+
 #available-courses {
     background-color:#B49777;
-}
+} 
 .logo {
     max-height:100px;
 }
@@ -76,7 +77,10 @@ body {
 .row {
     text-align:center;
     color:#573F35;
-    font-size:25px;
+   font-family: var(--body-font);
+}
+.card {
+    min-height:366.5px;
 }
 .card-body {
     background-color:rgba(81, 59, 46, 0.1);
@@ -102,11 +106,14 @@ body {
     max-width:33%;
 }
 .carousel-inner {
-    max-width:300px;
+    max-width:50%;
     text-align:center;
-    display:inline-block;
+    margin:auto;
+    padding:100px;
 }
-
+.carousel-inner h4 {
+    color: #B49777; 
+}
 footer {
 background-color:#473c38;
 padding:20px;
