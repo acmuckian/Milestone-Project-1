@@ -56,7 +56,9 @@ body {
 #cover-text:hover {
     background-color:rgba(81, 59, 46, 0.7);
 }
-
+#available-courses {
+    background-color:#B49777;
+}
 .logo {
     max-height:100px;
 }
@@ -74,6 +76,7 @@ body {
 .row {
     text-align:center;
     color:#573F35;
+    font-size:25px;
 }
 .card-body {
     background-color:rgba(81, 59, 46, 0.1);
@@ -81,10 +84,10 @@ body {
     color:#573F35;
 
 }
-.card-img, .card-image-top, .card-img-bottom {
+.card-img, .card-img-top, .card-img-bottom {
     mask-image: linear-gradient(black, transparent);   
 }
-.card-image-top:hover, card-image-top:focus {
+.card-img-top:hover, card-img-top:focus {
     mask-image:unset;
 }
 .btn-outline-secondary {
@@ -95,10 +98,13 @@ body {
     background-color: #513B2E;
     color:white;
 }
+.testimonial-space {
+    max-width:33%;
+}
 .carousel-inner {
     max-width:300px;
     text-align:center;
-    display:block;
+    display:inline-block;
 }
 
 footer {
@@ -116,6 +122,9 @@ footer li {
 footer i {
     font-size: 100%;
     padding:5px;
+    color: #FFE8C8;
+}
+footer .row {
     color: #FFE8C8;
 }
 .social {
