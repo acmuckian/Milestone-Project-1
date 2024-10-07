@@ -112,7 +112,11 @@ body {
     padding:100px;
 }
 .carousel-inner h4 {
-    color: #B49777; 
+    
+    color: #513B2E; 
+}
+.carousel-inner p {
+    color:#573F35;
 }
 footer {
 background-color:#473c38;
