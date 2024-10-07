@@ -75,6 +75,13 @@ body {
     background-color:rgba(81, 59, 46, 0.1);
     font-family:var(--body-font);
     color:#573F35;
+
+}
+.card-img, .card-image-top, .card-img-bottom {
+    mask-image: linear-gradient(black, transparent);   
+}
+.card-image-top:hover, card-image-top:focus {
+    mask-image:unset;
 }
 .btn-outline-secondary {
     color:#573F35;
