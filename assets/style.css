@@ -80,7 +80,7 @@ body {
    font-family: var(--body-font);
 }
 .card {
-    min-height:366.5px;
+    min-height:407.3px;
 }
 .card-body {
     background-color:rgba(81, 59, 46, 0.1);
