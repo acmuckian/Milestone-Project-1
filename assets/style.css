@@ -71,7 +71,7 @@ body {
 #navbar-banner {
     background-color: #FFE8C8;
     font-family: var(--body-font);
-    font-size:3.5vh;
+    font-size:medium;
 }
 .nav-item {
     color:#573F35;
@@ -180,9 +180,9 @@ color:#FFE8C8;
     column-gap: 0px;
 }
 
-#pictures.row {
+.col-lg-3.col-md-6.col-sm-12 {
     padding: 0;
-    width:100%;
+   
 }
 /* #pictures img {
     mask-image: linear-gradient(black, transparent);
