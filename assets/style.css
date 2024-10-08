@@ -158,7 +158,7 @@ footer .row {
 .social {
 color:#FFE8C8;
 }
-
+/* gallery page css */
 #gallery-about {
     max-height: 300px;
     max-width: 100%;
@@ -180,14 +180,13 @@ color:#FFE8C8;
     column-gap: 0px;
 }
 
-#pictures .row {
+#pictures.row {
     padding: 0;
+    width:100%;
 }
-
-
-#pictures img{
-    width: 50%;
-}
+/* #pictures img {
+    mask-image: linear-gradient(black, transparent);
+} */
 
 /* media queries below */ 
 @media only screen and (max-width: 800px) {
