@@ -59,6 +59,8 @@ body {
 
 #available-courses {
     background-color:#B49777;
+    padding:10px;
+    text-align: center;
 } 
 .logo {
     max-height:100px;
@@ -74,13 +76,24 @@ body {
 .nav-item {
     color:#573F35;
 }
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  
+ /*#available-courses .card {
+    flex: 1 0 auto;
+  }
+  
 .row {
     text-align:center;
     color:#573F35;
    font-family: var(--body-font);
-}
+}*/
 .card {
-    min-height:407.3px;
+    min-height: 100%;
+    
 }
 .card-body {
     background-color:rgba(81, 59, 46, 0.1);
@@ -150,13 +163,32 @@ color:#FFE8C8;
     max-height: 300px;
     max-width: 100%;
     overflow: hidden;
+    background-color:#B49777;
 }
-#gallery-about .card {
-    max-height:300px;
+
+    
 }
 #gallery-about .card-body {
-    max-height:inherit;
+    padding:50%;
+    
 }
+
+#pictures {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#pictures .row {
+    padding: 0;
+}
+
+
+#pictures img{
+    width: 50%;
+}
+
 /* media queries below */ 
 @media only screen and (max-width: 800px) {
 #navbar-banner {
@@ -200,4 +232,7 @@ color:#FFE8C8;
 }
 .col-6 {
     max-width:100%;
-} }
+} 
+.carousel-inner{
+    max-width:100%;
+}}
