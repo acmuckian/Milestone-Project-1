@@ -184,6 +184,12 @@ color:#FFE8C8;
     padding: 0;
    
 }
+#pictures .card {
+    max-width:100%;
+}
+.position-absolute bottom-0 start-50 {
+    color:white;
+}
 /* #pictures img {
     mask-image: linear-gradient(black, transparent);
 } */
