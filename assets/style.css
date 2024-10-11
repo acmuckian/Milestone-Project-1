@@ -189,8 +189,16 @@ color:#FFE8C8;
   width: 500px;
 
 }
-.position-absolute bottom-0 start-50 {
+#pictures .card {
+    border-radius:0%;
+    
+}
+.card-text.position-absolute.bottom-0.start-50 {
     color:white;
+    visibility: hidden;
+}
+.card-text.position-absolute.bottom-0.start-50:hover {
+    visibility: visible;
 }
 /* #pictures img {
     mask-image: linear-gradient(black, transparent);
