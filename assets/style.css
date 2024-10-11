@@ -206,15 +206,27 @@ color:#FFE8C8;
     from {visbility: hidden;}
   to {visibility: visible;}
   }
-/* #pictures img {
-    mask-image: linear-gradient(black, transparent);
-} */
+
+
+/* styles for the sign up page */
+form {
+    background-color:rgba(81, 59, 46, 0.5);
+    color:#FFE8C8;
+    font-family:var(--body-font);
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
 
 /* media queries below */ 
 @media only screen and (max-width: 800px) {
 #navbar-banner {
    font-size:2.5vh;
    text-align:justify;
+}
+.col-6 {
+    max-width:100%;
 }
 #pictures img {
     height: 400px;
