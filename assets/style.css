@@ -209,6 +209,10 @@ color:#FFE8C8;
 
 
 /* styles for the sign up page */
+
+#signup {
+    background-image:url(../assets/images/andrej-lisakov-9DRYbaWevgk-unsplash.jpg);
+}
 form {
     background-color:rgba(81, 59, 46, 0.5);
     color:#FFE8C8;
