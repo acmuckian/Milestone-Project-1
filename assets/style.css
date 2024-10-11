@@ -195,11 +195,17 @@ color:#FFE8C8;
 }
 .card-text.position-absolute.bottom-0.start-50 {
     color:white;
-    visibility: hidden;
+    background-color:rgba(81, 59, 46, 0.7);
+    animation: showtext 2s ease-in;
+    /* visibility: hidden; */
 }
 .card-text.position-absolute.bottom-0.start-50:hover {
     visibility: visible;
 }
+@keyframes showtext {
+    from {visbility: hidden;}
+  to {visibility: visible;}
+  }
 /* #pictures img {
     mask-image: linear-gradient(black, transparent);
 } */
