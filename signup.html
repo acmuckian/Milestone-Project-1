@@ -43,9 +43,9 @@
       </div>
     </nav>
       <!-- sign up form here -->
-       <form> 
+       <form action="/action_page.php" method="post"> 
         <h2>Find out more about our courses</h2>   
-      <fieldset><legend>Personal Information</legend>
+      <fieldset><legend><i class="fa-solid fa-person"></i> Personal Information</legend>
         <label for="personname">Name:</label>
        <input type="text" id="personname" required><br>
        <label for="phone">Phone Number:</label>
@@ -54,7 +54,7 @@
        <input type="email" id="email" required><br>
       </fieldset>
        <br>
-       <fieldset><legend>Preferred Course</legend>
+       <fieldset><legend><i class="fa-solid fa-ruler-combined"></i> Preferred Course</legend>
        <label for="woodworking">Introduction to Woodworking</label>
       <input type="radio" id="woodworking" name="course" value="woodworking" required><br>
       <label for="birdhouse">Build a Birdhouse</label>
@@ -64,9 +64,9 @@
       <label for="woodturning">Fundamentals of Woodturning</label>
       <input type="radio" id="woodturning" name="course_preference" value="woodturning">
     </fieldset>
-    <h4>Any Comments? <i class="fa-regular fa-comment"></i></h4>
+    <h5><i class="fa-regular fa-comment"></i> Any Comments? </h5>
     <textarea rows="4" cols="50">
-      </textarea>
+      </textarea><br>
       <input type="submit" value="Submit!" class="enquire">
       </form>
       <footer id="contact">
