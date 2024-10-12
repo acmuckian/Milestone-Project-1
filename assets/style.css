@@ -221,6 +221,14 @@ form {
     left: 20%;
     padding:20px;
 }
+.enquire {
+ color:#FFE8C8;
+ background-color: #513B2E;
+}
+.enquire:hover {
+    background-color:#FFE8C8;
+    color: #513B2E;
+}
 
 /* media queries below */ 
 @media only screen and (max-width: 800px) {
