@@ -210,6 +210,10 @@ color:#FFE8C8;
 .row-cols-2 {
     padding:20px;
 }
+.list-group-item {
+    background-color:#513B2E;
+    color:white;
+}
 /* styles for the sign up page */
 
 #signup {
