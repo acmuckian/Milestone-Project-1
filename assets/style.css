@@ -214,6 +214,13 @@ color:#FFE8C8;
     background-color:#513B2E;
     color:white;
 }
+.style-2 {
+    background-color:#573F35
+    color:white; 
+}
+.container-fluid .card-img-top {
+    mask-image: none;
+}
 /* styles for the sign up page */
 
 #signup {
