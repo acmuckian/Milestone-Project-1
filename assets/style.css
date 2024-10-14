@@ -206,10 +206,14 @@ color:#FFE8C8;
   }
 
 /* styles for the workshop page */
-#available-courses {
+#course {
     text-align: center;
     color:#473c38;
     padding:20px;
+}
+#diamond-course {
+    text-align:center;
+    color:#473c38;
 }
 .row-cols-2 {
     padding:20px;
