@@ -206,7 +206,11 @@ color:#FFE8C8;
   }
 
 /* styles for the workshop page */
-
+#available-courses {
+    text-align: center;
+    color:#473c38;
+    padding:20px;
+}
 .row-cols-2 {
     padding:20px;
 }
@@ -220,6 +224,11 @@ color:#FFE8C8;
 }
 .container-fluid .card-img-top {
     mask-image: none;
+    height:40%;
+}
+.container-fluid .card {
+    min-height: none;
+    height:30rem;
 }
 /* styles for the sign up page */
 
