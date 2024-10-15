@@ -226,11 +226,11 @@ color:#FFE8C8;
     background-color:#573F35
     color:white; 
 }
-.container-fluid .card-img-top {
+ #workshop .card-img-top {
     mask-image: none;
     height:40%;
 }
-.container-fluid .card {
+#workshop .card {
     min-height: none;
     height:30rem;
 }
