@@ -206,6 +206,10 @@ color:#FFE8C8;
   }
 
 /* styles for the workshop page */
+#course-header {
+    text-align:center;
+    padding:20px;
+}
 #course {
     text-align: center;
     color:#473c38;
@@ -216,7 +220,7 @@ color:#FFE8C8;
     color:#473c38;
 }
 .row-cols-2 {
-    padding:20px;
+    padding:100px 10px 10px 100px;
 }
 .list-group-item {
     background-color:#513B2E;
@@ -270,6 +274,9 @@ input[type=submit] {
 }
 .col-6 {
     max-width:100%;
+}
+#pictures {
+    background-color: #B49777;
 }
 #pictures img {
     height: 400px;
