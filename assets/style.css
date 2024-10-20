@@ -318,6 +318,7 @@ input[type=submit] {
 }
 .col-6 {
     max-width:100%;
+    width: 100%;
 } 
 .carousel-inner{
     max-width:100%;
@@ -325,5 +326,12 @@ input[type=submit] {
 #pictures img {
     height: 400px;
     width: 100%;
+}
+#contact .row-cols-3 {
+width: auto;
+}
+#carouselexampleautoplaying {
+    padding-left: 0px;
+    padding-right: 150px;
 }
 } }
