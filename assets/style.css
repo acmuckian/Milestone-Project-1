@@ -106,6 +106,7 @@ body {
     transition-duration: 5s;
     transition-delay: 2s;  
     transition-property: mask-image;
+    height:250px;
 }
 .card-img-top:hover, card-img-top:focus {
     mask-image:unset;
@@ -271,6 +272,9 @@ input[type=submit] {
 #navbar-banner {
    font-size:2.5vh;
    text-align:justify;
+}
+.row-cols-3 > * {
+    width: 33.33%;
 }
 .col-6 {
     max-width:100%;
