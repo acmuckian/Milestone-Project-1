@@ -312,6 +312,9 @@ input[type=submit] {
     .navbar-nav li {
     padding:10px;
 }
+#cover-text {
+    margin:unset;
+}
 .row {
     display:block;
 
@@ -328,7 +331,7 @@ input[type=submit] {
     width: 100%;
 }
 #contact .row-cols-3 {
-width: auto;
+width: unset;
 }
 #carouselexampleautoplaying {
     padding-left: 0px;
