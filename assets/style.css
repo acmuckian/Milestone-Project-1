@@ -229,14 +229,14 @@ color:#FFE8C8;
     color:white;
 }
 .style-2 {
-    background-color:#573F35
+    background-color:#573F35;
     color:white; 
 }
- #workshop .card-img-top {
+ .workshop .card-img-top {
     mask-image: none;
     height:40%;
 }
-#workshop .card {
+.workshop .card {
     min-height: none;
     height:30rem;
 }
