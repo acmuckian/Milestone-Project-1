@@ -61,7 +61,7 @@ body {
   color: #513B2E;
     padding:10px;
     text-align: center;
-    background-color: rgba(81, 59, 46, 0.2);
+    
 } 
 .logo {
     max-height:100px;
@@ -161,6 +161,9 @@ footer .row {
 color:#FFE8C8;
 }
 /* gallery page css */
+.gallery {
+    background-color: rgba(180, 151, 119, 0.3);
+}
 #gallery-about {
     max-height: 300px;
     max-width: 100%;
@@ -211,6 +214,7 @@ color:#FFE8C8;
 #course-header {
     text-align:center;
     padding:20px;
+    background-color: rgba(180, 151, 119, 0.3);
 }
 #course {
     text-align: center;
@@ -222,7 +226,8 @@ color:#FFE8C8;
     color:#473c38;
 }
 .row-cols-2 {
-    padding:100px 10px 10px 100px;
+    
+    margin:10px 100px 10px 100px;
 }
 .list-group-item {
     background-color:#513B2E;
@@ -237,8 +242,9 @@ color:#FFE8C8;
     height:40%;
 }
 .workshop .card {
-    min-height: none;
-    height:30rem;
+    min-height: 40rem;
+    height: fit-content;
+    max-height:40rem;
 }
 /* styles for the sign up page */
 
@@ -343,8 +349,13 @@ input[type=submit] {
 #contact .row-cols-3 {
 width: unset;
 }
+
 #carouselexampleautoplaying {
     padding-left: 0px;
     padding-right: 150px;
+}
+form {
+    width:100%;
+    left:0;
 }
 } }
