@@ -227,7 +227,11 @@ color:#FFE8C8;
 }
 .row-cols-2 {
     
-    margin:10px 100px 10px 100px;
+    padding-inline:75px;
+}
+.workshop .card {
+    --bs-card-border-color:unset;
+    --bs-card-inner-border-radius:unset;
 }
 .list-group-item {
     background-color:#513B2E;
