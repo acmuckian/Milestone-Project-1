@@ -354,6 +354,13 @@ input[type=submit] {
 #cover-text {
     margin:unset;
 }
+footer {
+    display:inline;
+}
+footer .logo {
+    height: 75px;
+
+}
 .row {
     display:block;
 
