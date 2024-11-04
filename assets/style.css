@@ -38,6 +38,8 @@ body {
     font-family:var(--header-font);
    /* width:300px;
     height:200px; */
+    padding-left:2%;
+    padding-right:2%;
     padding:200px;
     width: 300px;
 height: 470px;
@@ -52,11 +54,11 @@ height: 470px;
     animation: mymove 2s ease-out;
    /* border-radius: 25px; */
    top: 100px;
-left: 50px;
+left: 15%;
 }
 @keyframes mymove {
     from {left: 0px;}
-  to {left: 50px;}
+  to {left: 15%;}
   }
 #cover-text:hover {
     background-color:rgba(81, 59, 46, 0.7);
@@ -323,7 +325,7 @@ input[type=submit] {
     #cover-text {
         max-width: 100vw;
         top:350px;
-        left:0px;
+        left:15%;
         width:576px;
         height:200px;
         /* left: 0;
