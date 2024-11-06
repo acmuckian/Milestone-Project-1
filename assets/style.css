@@ -232,7 +232,7 @@ color:#FFE8C8;
 }
 .row-cols-2 {
     
-    padding-inline:75px;
+    /* padding-inline:75px;*/
 }
 .workshop .card {
     --bs-card-border-color:unset;
@@ -312,6 +312,11 @@ input[type=submit] {
 #pictures img {
     height: 400px;
     width: 100%;
+}
+@media only screen and (min-width:1100px) {
+    .workshop .container {
+        max-width:100%;
+    }
 }
 @media only screen and (max-width: 576px) {
     .logo {
