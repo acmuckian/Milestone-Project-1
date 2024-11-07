@@ -317,7 +317,11 @@ input[type=submit] {
     .workshop .container {
         max-width:100%;
     }
+    .row-cols-2 {
+        padding-left:100px;
+    }
 }
+
 @media only screen and (max-width: 576px) {
     .logo {
         max-height:150px;
