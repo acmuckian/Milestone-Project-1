@@ -34,7 +34,7 @@ body {
 }
 
 #cover-text {
-    font: size 120%;
+    font-size: 120%;
     font-family:var(--header-font);
    /* width:300px;
     height:200px; */
@@ -211,7 +211,7 @@ color:#FFE8C8;
     visibility: visible;
 }
 @keyframes showtext {
-    from {visbility: hidden;}
+    from {visibility: hidden;}
   to {visibility: visible;}
   }
 
@@ -289,7 +289,7 @@ input[type=submit] {
 /* media queries below */ 
 @media only screen and (min-width:1100px) {
 #hero-image {
-    background-image: url(images/pexels-ono-kosuki-5974404\ large.jpg) no repeat center center;
+    background: url(images/pexels-ono-kosuki-5974404\ large.jpg) no repeat center center;
 }
 }
 @media only screen and (max-width: 992px) {
