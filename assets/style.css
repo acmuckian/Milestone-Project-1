@@ -273,8 +273,11 @@ form {
     position: relative;
     top: 25%;
     left: 20%;
-    padding:20px;
+    padding: 5% 10% 5% 10%;
     margin:20px;
+}
+textarea {
+    width:80%;
 }
 .enquire {
  color:#FFE8C8;
