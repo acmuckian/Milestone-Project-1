@@ -87,7 +87,9 @@ left: 15%;
     flex-wrap: wrap;
     align-items: stretch;
   }
-  
+  .selected {
+    background-color:rgba(180, 151, 119, 0.3);
+  }
  /*#available-courses .card {
     flex: 1 0 auto;
   }
