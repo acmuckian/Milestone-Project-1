@@ -203,12 +203,14 @@ color:#FFE8C8;
     border-radius:0%;
     
 }
-.card-text.position-absolute.bottom-0 {
+#pictures .card-text {
     color:white;
     background-color:rgba(81, 59, 46, 0.7);
     animation: showtext 2s ease-in;
     padding:10px 0 0 10px;
-
+    bottom:0;
+    right:0;
+}
     /* visibility: hidden; 
 }
 .card-text.position-absolute.bottom-0:hover {
