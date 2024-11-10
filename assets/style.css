@@ -404,6 +404,9 @@ footer .logo {
     display:block;
 
 }
+.picture-col {
+    width:100%;
+}
 .col-6 {
     max-width:100%;
     width: 100%;
@@ -416,8 +419,13 @@ footer .logo {
     height:600px;
 }
 #pictures img {
-    height: 600px;
-    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    top: left;
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 #contact .row-cols-3 {
 width: unset;
