@@ -48,11 +48,11 @@
   <!-- sign up form here -->
   <form action="confirmation.html" method="get">
     <h2>Find out more about our courses...</h2>
-    <fieldset>
+    <fieldset id="personalinfo">
       <legend><i class="fa-solid fa-person"></i> Personal Information</legend>
       <label for="personname">Name:</label>
       <input type="text" id="personname" required><br>
-      <label for="phone">Phone No.:</label>
+      <label for="phone">Phone:</label>
       <input type="tel" id="phone" required><br>
       <label for="email">Email:</label>
       <input type="email" id="email" required><br>
@@ -60,14 +60,17 @@
     <br>
     <fieldset>
       <legend><i class="fa-solid fa-ruler-combined"></i> Preferred Course</legend>
+      <input type="radio" id="woodworking" name="course" value="woodworking">
       <label for="woodworking">Introduction to Woodworking</label>
-      <input type="radio" id="woodworking" name="course" value="woodworking" required><br>
+      <br>
+      <input type="radio" id="birdhouse" name="course_preference" value="birdhouse">
       <label for="birdhouse">Build a Birdhouse</label>
-      <input type="radio" id="birdhouse" name="course_preference" value="birdhouse"><br>
+      <br>
+      <input type="radio" id="dovetails" name="course_preference" value="dovetails">
       <label for="dovetails">Cabinetmaking:Dovetails</label>
-      <input type="radio" id="dovetails" name="course_preference" value="dovetails"><br>
-      <label for="woodturning">Fundamentals of Woodturning</label>
+      <br>
       <input type="radio" id="woodturning" name="course_preference" value="woodturning">
+      <label for="woodturning">Fundamentals of Woodturning</label>
     </fieldset>
     <h5><i class="fa-regular fa-comment"></i> Any Comments? </h5>
     <textarea rows="4" cols="auto">

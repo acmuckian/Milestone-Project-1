@@ -279,6 +279,12 @@ form {
 textarea {
     width:80%;
 }
+#personalinfo {
+    display:grid;
+}
+#personalinfo input {
+    width:80%;
+}
 .enquire {
  color:#FFE8C8;
  background-color: #513B2E;
