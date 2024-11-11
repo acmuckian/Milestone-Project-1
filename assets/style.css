@@ -419,120 +419,122 @@ input[type=submit] {
 
     @media only screen and (max-width: 576px) {
         .logo {
-            max-height: 150px;
-        }
-
-        .navbar {
-            max-height: 200px;
-        }
-
-        #cover-text {
-            max-width: 100vw;
-            top: 30%;
-            left: 0%;
-            width: 100%;
-        }
-
-        .card {
-            max-width: 100vw;
-            display: block;
-        }
-
-        .navbar>.container {
-            position: relative;
-        }
-
-        .navbar-expand-sm .navbar-nav {
-            font-size: 3vh;
-            font-size: 3vh;
-            position: absolute;
-            top: 20%;
-            left: 25%;
-        }
-
-        .container,
-        .container-fluid,
-        .container-lg,
-        .container-md,
-        .container-sm,
-        .container-xl,
-        .container-xxl {
-            --bs-gutter-x: 0;
-        }
-
-        .navbar-expand-sm .navbar-nav {
-            flex-direction: row;
-            text-align: center;
-            font-size: 2vh;
-
-        }
-
-        .navbar-nav li {
-            padding: 10px;
-        }
-
-        #cover-text {
-            margin: unset;
-        }
-
-        footer {
-            display: inline;
-        }
-
-        footer .logo {
-            height: 75px;
-
-        }
-
-        #contact .row {
-            display: block;
-
-        }
-
-        .picture-col {
-            width: 100%;
-        }
-
-        .col-6 {
-            max-width: 100%;
-            width: 100%;
-        }
-
-        .carousel-inner {
-            max-width: 100%;
-        }
-
-        #gallery-about .card-body {
-            /* padding: 0; */
-        }
-
-        #pictures .card {
-            max-width: 100%;
-            height: 600px;
-        }
-
-        #pictures img {
-            height: 100%;
             object-fit: cover;
-            top: left;
-            top: 0;
-            position: absolute;
-            left: 0;
-            width: 100%;
-        }
-
-        #contact .row-cols-3 {
-            width: unset;
-        }
-
-        #carouselexampleautoplaying {
-            padding-left: 0px;
-            padding-right: 150px;
-        }
-
-        form {
-            width: 100%;
-            left: 0;
+            max-width: 75px;
         }
     }
+
+    .navbar {
+        max-height: 200px;
+    }
+
+    #cover-text {
+        max-width: 100vw;
+        top: 30%;
+        left: 0%;
+        width: 100%;
+    }
+
+    .card {
+        max-width: 100vw;
+        display: block;
+    }
+
+    .navbar>.container {
+        position: relative;
+    }
+
+    .navbar-expand-sm .navbar-nav {
+        font-size: 3vh;
+        font-size: 3vh;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+    }
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        --bs-gutter-x: 0;
+    }
+
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: row;
+        text-align: center;
+        font-size: 2vh;
+
+    }
+
+    .navbar-nav li {
+        padding: 10px;
+    }
+
+    #cover-text {
+        margin: unset;
+    }
+
+    footer {
+        display: inline;
+    }
+
+    footer .logo {
+        height: 75px;
+
+    }
+
+    #contact .row {
+        display: block;
+
+    }
+
+    .picture-col {
+        width: 100%;
+    }
+
+    .col-6 {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .carousel-inner {
+        max-width: 100%;
+    }
+
+    #gallery-about .card-body {
+        /* padding: 0; */
+    }
+
+    #pictures .card {
+        max-width: 100%;
+        height: 600px;
+    }
+
+    #pictures img {
+        height: 100%;
+        object-fit: cover;
+        top: left;
+        top: 0;
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    #contact .row-cols-3 {
+        width: unset;
+    }
+
+    #carouselexampleautoplaying {
+        padding-left: 0px;
+        padding-right: 150px;
+    }
+
+    form {
+        width: 100%;
+        left: 0;
+    }
+}
 }
