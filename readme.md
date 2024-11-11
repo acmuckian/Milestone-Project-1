@@ -56,12 +56,21 @@ Wireframes are as listed below:
 
 ## Testing 
 ### Feature Testing  
+
+
 | **Feature**              | **Expect**                                                   | **Action**                | **Result**                                                  |
 |--------------------------|--------------------------------------------------------------|---------------------------|-------------------------------------------------------------|
 | **Home Navbar Button**   | when click on home, homepage opens                           | clicked on home at navbar | homepage opened when clicked                                |
 | **Social media icons**   | social media website opens in a new tab when icon clicked    | clicked social media icon | link opened at new tab and to correct site                  |
 | **Testimonial carousel** | Testimonial carousel changes but not too fast between quotes | Loaded home page          | carousel changes at a good speed to allow quotes to be read |
 | **Cards**                | when hover over the cards, the image becomes unmasked        | hover over the card image | image becomes unmasked and clear                            |
+| **Enquiry Button**     | when click on the enquiry button in workshop page, enquiry page opens | clicked on enquiry button | sign up page opens                      |
+| **Personal Info**      | form requires personal information before being submitted      | try to submit without personal info | unable to submit, tells you what information is required |
+| **Submit Button**      | when clicking on the submit button in the signup page, thank you message appears | click on submit | thank you page appears            |
+
+#### Workshop Page 
+
+
 ## Deployment 
 
 ## Credits 
@@ -76,3 +85,4 @@ Wireframes are as listed below:
 * [Gary Yost](https://unsplash.com/photos/brown-wooden-birdhouse-with-red-flowers-2CAqKogS3Fk)
 * [Alex Gruber]()
 * [Ono Kosuki](https://www.pexels.com/photo/person-using-tools-in-woodworking-5974404/)
+* [Tim Hamilton on Instagram](https://www.instgram.com/timhamiltoncraft)
