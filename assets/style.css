@@ -236,14 +236,11 @@ color:#FFE8C8;
     text-align:center;
     color:#473c38;
 }
-.row-cols-2 {
-    
-    padding-left:200px;
-    margin-left:0;
-}
+
 .workshop .card {
     --bs-card-border-color:unset;
     --bs-card-inner-border-radius:unset;
+    padding-bottom: 10%;
 }
 .workshop ul {
     height: 122px;
