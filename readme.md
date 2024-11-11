@@ -55,7 +55,13 @@ The website's primary colours are in a wood-based palette, using the main colour
 Wireframes are as listed below:
 
 ## Testing 
-
+### Feature Testing  
+| **Feature**              | **Expect**                                                   | **Action**                | **Result**                                                  |
+|--------------------------|--------------------------------------------------------------|---------------------------|-------------------------------------------------------------|
+| **Home Navbar Button**   | when click on home, homepage opens                           | clicked on home at navbar | homepage opened when clicked                                |
+| **Social media icons**   | social media website opens in a new tab when icon clicked    | clicked social media icon | link opened at new tab and to correct site                  |
+| **Testimonial carousel** | Testimonial carousel changes but not too fast between quotes | Loaded home page          | carousel changes at a good speed to allow quotes to be read |
+| **Cards**                | when hover over the cards, the image becomes unmasked        | hover over the card image | image becomes unmasked and clear                            |
 ## Deployment 
 
 ## Credits 
