@@ -53,6 +53,11 @@ The website's primary colours are in a wood-based palette, using the main colour
  ### Wireframes
 
 Wireframes are as listed below:
+* **Home Page** [Desktop](https://wireframe.cc/vgawco) [Mobile](https://wireframe.cc/mlVBo0)
+* **Gallery** [Desktop](https://wireframe.cc/UfeOIv) [Tablet](https://wireframe.cc/eMkP4q) [Mobile](https://wireframe.cc/Lkd1Bg)
+* **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP)
+* **Sign Up** 
+
 
 ## Testing 
 ### Feature Testing  
@@ -68,15 +73,15 @@ Wireframes are as listed below:
 | **Personal Info**      | form requires personal information before being submitted      | try to submit without personal info | unable to submit, tells you what information is required |
 | **Submit Button**      | when clicking on the submit button in the signup page, thank you message appears | click on submit | thank you page appears            |
 
-#### Workshop Page 
-
 
 ## Deployment 
 
 ## Credits 
 
- [W3 Schools guidance on Mask-Image and Masking in CSS](https://www.w3schools.com/css/css3_masking.asp)
-[This guide on how to make a footer stay at the bottom of the webpage](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+* [W3 Schools guidance on Mask-Image and Masking in CSS](https://www.w3schools.com/css/css3_masking.asp)
+* [This guide on how to make a footer stay at the bottom of the webpage](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+* [W3 Schools Guide on Object-Fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
+* [Bootstrap - Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
 
 **Photographs:** 
 
