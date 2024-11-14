@@ -224,6 +224,13 @@ footer .row {
     padding: 8.5%;
 }
 
+#gallery-about img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+
+}
+
 .col-lg-3.col-md-6.col-sm-12 {
     padding: 0;
     max-height: 50%;
@@ -430,9 +437,19 @@ input[type=submit] {
 
     #cover-text {
         max-width: 100vw;
-        top: 30%;
+
         left: 0%;
         width: 100%;
+    }
+
+    @keyframes mymove {
+        from {
+            left: -100px;
+        }
+
+        to {
+            left: 0px;
+        }
     }
 
     .card {
@@ -535,6 +552,7 @@ input[type=submit] {
     form {
         width: 100%;
         left: 0;
+        margin: 0;
     }
 }
 }
