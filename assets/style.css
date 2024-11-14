@@ -142,6 +142,7 @@ body {
     transition-delay: 2s;
     transition-property: mask-image;
     height: 250px;
+    object-fit: cover;
 }
 
 .card-img-top:hover,
