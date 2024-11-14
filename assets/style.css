@@ -313,7 +313,7 @@ footer .row {
 
 .workshop .card-img-top {
     mask-image: none;
-
+    object-fit: cover;
 }
 
 .workshop .card {
