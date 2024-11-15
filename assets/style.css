@@ -315,12 +315,18 @@ footer .row {
 .workshop .card-img-top {
     mask-image: none;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .workshop .card {
     min-height: 40rem;
     height: fit-content;
     max-height: 40rem;
+}
+
+.workshop .card-body {
+    height: 244px;
+    flex-shrink: 0;
 }
 
 /* styles for the sign up page */
@@ -529,6 +535,11 @@ input[type=submit] {
     #pictures .card {
         max-width: 100%;
         height: 600px;
+    }
+
+    .workshop .card {
+        max-width: unset;
+
     }
 
     #pictures img {
