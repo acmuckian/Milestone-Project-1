@@ -420,6 +420,14 @@ input[type=submit] {
         height: 400px;
         width: 100%;
     }
+    .workshop .card {
+        margin-bottom: 10%;
+
+    }
+    .workshop .card-body {
+        height:310px;
+
+    }
 
     @media only screen and (min-width:1100px) {
         .workshop .container {
@@ -470,10 +478,11 @@ input[type=submit] {
 
     .navbar-expand-sm .navbar-nav {
         font-size: 3vh;
-        font-size: 3vh;
         position: absolute;
         top: 20%;
         left: 25%;
+        flex-direction: row;
+        text-align: center;
     }
 
     .container,
@@ -484,13 +493,6 @@ input[type=submit] {
     .container-xl,
     .container-xxl {
         --bs-gutter-x: 0;
-    }
-
-    .navbar-expand-sm .navbar-nav {
-        flex-direction: row;
-        text-align: center;
-        font-size: 2vh;
-
     }
 
     .navbar-nav li {
