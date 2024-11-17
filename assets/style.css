@@ -97,10 +97,12 @@ body {
     background-color: #FFE8C8;
     font-family: var(--body-font);
     font-size: medium;
+    padding:0;
 }
 
 .nav-item {
     color: #573F35;
+    padding: 10%;
 }
 
 .card-deck {
@@ -111,7 +113,8 @@ body {
 
 .selected {
     background-color: rgba(180, 151, 119, 0.3);
-    padding:10%;
+    height: 100px;
+
 }
 
 /*#available-courses .card {
@@ -450,6 +453,15 @@ input[type=submit] {
         max-height: 200px;
     }
 
+    .navbar-nav {
+        bottom: 0px;
+        top: 0px;
+    }
+
+    .selected {
+        height: 100%;
+    }
+
     #cover-text {
         max-width: 100vw;
 
@@ -474,15 +486,16 @@ input[type=submit] {
 
     .navbar>.container {
         position: relative;
+
     }
 
     .navbar-expand-sm .navbar-nav {
         font-size: 3vh;
         position: absolute;
-        top: 20%;
         left: 25%;
         flex-direction: row;
         text-align: center;
+        height:100%;
     }
 
     .container,
