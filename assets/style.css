@@ -420,12 +420,14 @@ input[type=submit] {
         height: 400px;
         width: 100%;
     }
+
     .workshop .card {
         margin-bottom: 10%;
 
     }
+
     .workshop .card-body {
-        height:310px;
+        height: 310px;
 
     }
 
@@ -512,10 +514,10 @@ input[type=submit] {
 
     }
 
-    #contact .row {
+    /* #contact .row {
         display: block;
 
-    }
+    } */
 
     .picture-col {
         width: 100%;
@@ -530,9 +532,7 @@ input[type=submit] {
         max-width: 100%;
     }
 
-    #gallery-about .card-body {
-        /* padding: 0; */
-    }
+
 
     #pictures .card {
         max-width: 100%;
@@ -568,5 +568,17 @@ input[type=submit] {
         left: 0;
         margin: 0;
     }
+
+    #confirm {
+        width: 100%;
+        height: 615px;
+        padding: 25%;
+        margin: 0;
+    }
 }
+
+@media query and (max-width:480px) {
+    .navbar-expand-sm .navbar-nav {
+        left: 15%;
+    }
 }
