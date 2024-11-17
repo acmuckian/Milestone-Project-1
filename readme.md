@@ -1,6 +1,6 @@
 # Tim's Woodworks Website Overview
 
-Tim's Woodworks is a site for people seeking to sign up to woodworking
+Tim's Woodworks is a site for people seeking to Enquire to woodworking
 and cabinetmaking courses, be they a beginner, a hobbyist or a professional 
 looking to upgrade their skills. Tim's Woodworks will be useful for potential
 customers to see available courses, and reserve a spot on a course as well as seeing
@@ -40,7 +40,7 @@ the testimonial about the courses and flicks through automatically so the end-us
 
 **Form**
 
-* The sign up form
+* The Enquiry form
 
 ## UX 
 
@@ -71,7 +71,7 @@ Wireframes are as listed below:
 * **Home Page** [Desktop](https://wireframe.cc/vgawco) [Mobile](https://wireframe.cc/mlVBo0)
 * **Gallery** [Desktop](https://wireframe.cc/UfeOIv) [Tablet](https://wireframe.cc/eMkP4q) [Mobile](https://wireframe.cc/Lkd1Bg)
 * **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP)
-* **Sign Up** 
+* **Enquire** 
 
 
 ## Testing 
@@ -84,11 +84,23 @@ Wireframes are as listed below:
 | **Social media icons**   | social media website opens in a new tab when icon clicked    | clicked social media icon | link opened at new tab and to correct site                  |
 | **Testimonial carousel** | Testimonial carousel changes but not too fast between quotes | Loaded home page          | carousel changes at a good speed to allow quotes to be read |
 | **Cards**                | when hover over the cards, the image becomes unmasked        | hover over the card image | image becomes unmasked and clear                            |
-| **Enquiry Button**     | when click on the enquiry button in workshop page, enquiry page opens | clicked on enquiry button | sign up page opens                      |
+| **Enquiry Button**     | when click on the enquiry button in workshop page, enquiry page opens | clicked on enquiry button | Enquire page opens                      |
 | **Personal Info**      | form requires personal information before being submitted      | try to submit without personal info | unable to submit, tells you what information is required |
 | **Submit Button**      | when clicking on the submit button in the signup page, thank you message appears | click on submit | thank you page appears            |
 
 ### User Stories Testing 
+
+* **Expectation** As a visitor, I want to know what the website is about.
+* **Result** On the home page, I immediately know it is a woodworking site with woodworking courses. 
+
+* **Expectation** As a visitor, I want to see what courses are available. 
+* **Result** On the home page, I see a list of available courses and I can find out more details by clicking on them. 
+
+* **Expectation** As a visitor, when I click on the find on more button, I can see more about that specific course. 
+* **Result** When I click on the "find out more" button", I discover what next dates are available, the price, and how long the courses are on the workshop page.
+
+* **Expectation** As a visitor, I expect to know exactly which page of the website I am on. 
+* **Result** When I am on a page, the tab header states the page, and the navigation bar highlights which page I am currently on.
 
 
 
