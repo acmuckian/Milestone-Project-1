@@ -12,10 +12,10 @@ Tim's skills and abilities as an experienced craftsperson.
 
 **Navigation Bar**
 
-*This is featured on all four webpages, is fully responsive which includes the logo providing a link to the hompage, links to the 
+* This is featured on all four webpages, is fully responsive which includes the logo providing a link to the hompage, links to the 
 homepage, workshops, gallery, sign-up pages and is identical in each page to allow cohesive navigating.
 
-![Picture of the Navigation bar(image.png)
+![Picture of the Navigation bar](image.png)
 
 **Banner with Hero Image**
 
@@ -26,6 +26,21 @@ cabinetmaking at a glance where the interested customer can click on the button 
 information. This is on a responsive grid system. 
 
 **Testimonials**
+
+* The testimonials on the home page are displayed in a dynamic manner by the Bootstrap carousel feature. The timing is long enough to allow the end-user to read
+the testimonial about the courses and flicks through automatically so the end-user does not have to click through.
+
+![Screenshot of the testimonial page](image.png)
+
+**Footer section**
+
+* This is featured on all four webpages, and contains social media links represented by icons, an email address, a phone number. In the middle, is a logo of the website. 
+
+![Screenshot of footer section](image.png)
+
+**Form**
+
+* The sign up form
 
 ## UX 
 
@@ -72,6 +87,9 @@ Wireframes are as listed below:
 | **Enquiry Button**     | when click on the enquiry button in workshop page, enquiry page opens | clicked on enquiry button | sign up page opens                      |
 | **Personal Info**      | form requires personal information before being submitted      | try to submit without personal info | unable to submit, tells you what information is required |
 | **Submit Button**      | when clicking on the submit button in the signup page, thank you message appears | click on submit | thank you page appears            |
+
+### User Stories Testing 
+
 
 
 ## Deployment 
