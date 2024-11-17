@@ -15,7 +15,7 @@ Tim's skills and abilities as an experienced craftsperson.
 * This is featured on all four webpages, is fully responsive which includes the logo providing a link to the hompage, links to the 
 homepage, workshops, gallery, sign-up pages and is identical in each page to allow cohesive navigating.
 
-![Picture of the Navigation bar](image.png)
+![Picture of the Navigation bar](assets/images/navbar.png)
 
 **Banner with Hero Image**
 
@@ -25,22 +25,26 @@ homepage, workshops, gallery, sign-up pages and is identical in each page to all
 cabinetmaking at a glance where the interested customer can click on the button to go to the workshop html page to receive further
 information. This is on a responsive grid system. 
 
+![Picture of the Available Courses section](assets/images/availablecourses.png)
+
 **Testimonials**
 
 * The testimonials on the home page are displayed in a dynamic manner by the Bootstrap carousel feature. The timing is long enough to allow the end-user to read
 the testimonial about the courses and flicks through automatically so the end-user does not have to click through.
 
-![Screenshot of the testimonial page](image.png)
+![Screenshot of the testimonial section](assets/images/testimonials.png)
 
 **Footer section**
 
 * This is featured on all four webpages, and contains social media links represented by icons, an email address, a phone number. In the middle, is a logo of the website. 
 
-![Screenshot of footer section](image.png)
+![Screenshot of footer section](assets/images/footer.png)
 
-**Form**
+**Gallery**
 
-* The Enquiry form
+* The gallery features some of the objects that Tim has crafted with a small description on the bottom-right of each picture so the user can easily read what they are.
+
+![Screenshot of gallery section](assets/images/gallery.png)
 
 ## UX 
 
