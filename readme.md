@@ -72,9 +72,9 @@ The website's primary colours are in a wood-based palette, using the main colour
  ### Wireframes
 
 Wireframes are as listed below:
-* **Home Page** [Desktop](https://wireframe.cc/vgawco) [Mobile](https://wireframe.cc/mlVBo0)
+* **Home Page** [Desktop](https://wireframe.cc/vgawco) [Mobile](https://wireframe.cc/mlVBo0) [Mobile]()
 * **Gallery** [Desktop](https://wireframe.cc/UfeOIv) [Tablet](https://wireframe.cc/eMkP4q) [Mobile](https://wireframe.cc/Lkd1Bg)
-* **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP) [Mobile]
+* **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP) [Mobile](https://wireframe.cc/t6s6dB)
 * **Enquire** [Desktop](https://wireframe.cc/lpMVxV) [Tablet](https://wireframe.cc/mDcW2n) [Mobile](https://wireframe.cc/iR1wtQ)
 
 
@@ -106,7 +106,8 @@ Wireframes are as listed below:
 * **Expectation** As a visitor, I expect to know exactly which page of the website I am on. 
 * **Result** When I am on a page, the tab header states the page, and the navigation bar highlights which page I am currently on.
 
-
+* **Expectation** As a visitor after I have read the courses, I want to be able to enquire about booking. 
+* **Result** Below the courses on the workshops page, there is a button to click that sends me to an enquiry form. 
 
 ## Deployment 
 
@@ -116,6 +117,8 @@ Wireframes are as listed below:
 * [This guide on how to make a footer stay at the bottom of the webpage](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
 * [W3 Schools Guide on Object-Fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
 * [Bootstrap - Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
+* [Bootstrap - Cards](https://getbootstrap.com/docs/5.3/components/card/)
+* [Bootstrap - Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
 
 **Photographs:** 
 
