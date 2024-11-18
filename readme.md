@@ -74,8 +74,8 @@ The website's primary colours are in a wood-based palette, using the main colour
 Wireframes are as listed below:
 * **Home Page** [Desktop](https://wireframe.cc/vgawco) [Mobile](https://wireframe.cc/mlVBo0)
 * **Gallery** [Desktop](https://wireframe.cc/UfeOIv) [Tablet](https://wireframe.cc/eMkP4q) [Mobile](https://wireframe.cc/Lkd1Bg)
-* **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP)
-* **Enquire** 
+* **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP) [Mobile]
+* **Enquire** [Desktop](https://wireframe.cc/lpMVxV) [Tablet](https://wireframe.cc/mDcW2n) [Mobile](https://wireframe.cc/iR1wtQ)
 
 
 ## Testing 

@@ -222,7 +222,11 @@ footer .row {
     overflow: hidden;
     background-color: #B49777;
 }
+#gallery-about .card {
+    border-radius:unset; 
+    border:unset;
 
+}
 #gallery-about .card-body {
     height: 100%;
     text-align: center;
@@ -344,7 +348,7 @@ form {
     position: relative;
     top: 25%;
     left: 20%;
-    padding: 5% 10% 5% 10%;
+    padding: 7% 10% 5% 10%;
     margin: 20px;
 }
 
