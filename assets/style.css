@@ -228,12 +228,15 @@ footer .row {
 .social {
     color: #FFE8C8;
 }
+
 #content a {
-    text-decoration:none;
-    color:unset;
+    text-decoration: none;
+    color: unset;
 }
-#content a:visited, a:hover {
-    color:unset;
+
+#content a:visited,
+a:hover {
+    color: unset;
 }
 
 
@@ -599,8 +602,8 @@ input[type=submit] {
 
     .workshop .card {
         max-width: unset;
-        max-height:unset;
-        margin-bottom:0;
+        max-height: unset;
+        margin-bottom: 0;
 
     }
 
@@ -613,13 +616,19 @@ input[type=submit] {
         width: 100%;
     }
 
+    #pictures .card-text {
+        left: 0;
+        padding: 5%;
+    }
+
     #contact .row-cols-3 {
         width: unset;
     }
-    
-   #email-address {
-    visibility:collapse;
-   }
+
+    #email-address {
+        visibility: collapse;
+        overflow:hidden;
+    }
 
     #carouselexampleautoplaying {
         padding-left: 0px;
@@ -644,14 +653,20 @@ input[type=submit] {
         height: 100%;
         text-align: center;
     }
-.pictures .card-text {
-    left:0;
-    padding:5%;
-}
+
+    .pictures .card-text {
+        left: 0;
+        padding: 5%;
+    }
 
     @media query and (max-width:480px) {
         .navbar-expand-sm .navbar-nav {
             left: 15%;
         }
-    } 
+    }
+}
+@media (pointer:course) {
+    #available-courses .card-img-top {
+        filter:blur(0);
+    }
 }
