@@ -228,6 +228,14 @@ footer .row {
 .social {
     color: #FFE8C8;
 }
+#content a {
+    text-decoration:none;
+    color:unset;
+}
+#content a:visited, a:hover {
+    color:unset;
+}
+
 
 /* gallery page css */
 .gallery {
@@ -608,6 +616,10 @@ input[type=submit] {
     #contact .row-cols-3 {
         width: unset;
     }
+    
+   #email-address {
+    visibility:collapse;
+   }
 
     #carouselexampleautoplaying {
         padding-left: 0px;
@@ -641,4 +653,5 @@ input[type=submit] {
         .navbar-expand-sm .navbar-nav {
             left: 15%;
         }
-    }
+    } 
+}
