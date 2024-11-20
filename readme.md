@@ -65,18 +65,47 @@ The site should be easy to navigate, aesthetically pleasing and easy for custome
 
 ### Design Choices 
 
-The website's primary colours are in a wood-based palette, using the main colours: #513B2E #FFE8C8 #B49777 #573F35. 
+#### Colour Scheme
+
+The website's primary colours are in a wood-based palette, using the main colours: #513B2E #FFE8C8 #B49777 #573F35.
 
 [WebAIM](https://webaim.org/resources/contrastchecker/) was used for accessibility purposes to look at the contrast of the colours against each other: for instance, #513B2E as foreground #FFE8C8 as background had a contrast ratio of 8.74:1, this was used for the navigation bar. 
 
+![Picture of Coolors Palette](assets/images/Wood.png)
+
+#### Typography 
+
+Google Fonts was used to import the chosen fonts for use in the website. 
+
+For the headings, Fraunces is the chosen font. 
+![Picture of Fraunces font](assets/images/fraunces.png)
+
+For the main body text, the font Afacad Flux was used. This is a sans-serif font which is accessible for screen readers, readers with dsylexia and other disabilities. 
+![Picture of Afacad Flux](assets/images/afacad-flux.png)
+
  ### Wireframes
+The wireframes were created using the website Wireframe.cc for tablet, desktop and mobile. 
 
 Wireframes are as listed below:
-* **Home Page** [Desktop](https://wireframe.cc/vgawco) [Mobile](https://wireframe.cc/mlVBo0) [Mobile]()
+* **Home Page** [Desktop](https://wireframe.cc/vgawco) [Tablet]() [Mobile](https://wireframe.cc/mlVBo0) 
 * **Gallery** [Desktop](https://wireframe.cc/UfeOIv) [Tablet](https://wireframe.cc/eMkP4q) [Mobile](https://wireframe.cc/Lkd1Bg)
 * **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP) [Mobile](https://wireframe.cc/t6s6dB)
 * **Enquire** [Desktop](https://wireframe.cc/lpMVxV) [Tablet](https://wireframe.cc/mDcW2n) [Mobile](https://wireframe.cc/iR1wtQ)
 
+## Technologies Used
+#### Languages Used
+
+HTML, CSS, Javascript
+
+#### Frameworks, Libraries and Programs Used
+
+Git - for version control.
+Github - to save and store files for the website. 
+Coolors - to show the colour palette for the website.
+Google Fonts - to import the fonts on the website.
+Font Awesome - for the iconography on the website. 
+Google Dev Tools - for troubleshooting the features and the code of the website.
+Firefox Dev Tools - for troubleshooting the features and the code of the website.
 
 ## Testing 
 ### Feature Testing  
@@ -111,11 +140,33 @@ Wireframes are as listed below:
 
 ## Deployment 
 
+### Deployment 
+
+This site is deployed using GitHub Pages. Please see the deployed site [here](). To deploy using GitHub pages: 
+1. Login to GitHub. 
+2. Open the relevant project respository.
+3. Click on "Settings" in the navigation bar under the respository title.
+4. Click on "Pages" at the left-hand sidebar.
+5. Under "Source", choose which branch to deploy. Main is used for this respository.
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save" and wait for the deployment. 
+8. The URL should be displayed above "source" and on the "Code" page, on the right-hand sidebar under the "Deployments" subheading.
+
+### Local Deployment 
+
+The respository was also cloned for local deployment. To clone the respository: 
+
+1. Login to Github. 
+2. Go to the respository for this project: 
+3. Click on the green "Code" button on the respository main page, select whether to clone with HTTPS, GitHub CLI and copy the link shown, 
+4. Open the terminal in the code editor 
 ## Credits 
 
 * [W3 Schools guidance on Mask-Image and Masking in CSS](https://www.w3schools.com/css/css3_masking.asp)
 * [This guide on how to make a footer stay at the bottom of the webpage](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
 * [W3 Schools Guide on Object-Fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
+* 
+[W3 Schools Blur TryIt Editor](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_filter_blur)
 * [Bootstrap - Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
 * [Bootstrap - Cards](https://getbootstrap.com/docs/5.3/components/card/)
 * [Bootstrap - Grid](https://getbootstrap.com/docs/5.3/layout/grid/)

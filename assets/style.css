@@ -12,7 +12,7 @@ h3 {
 }
 
 p {
-    font-family: "Afacad Flux", sans-serif;
+    font-family: var(--body-font), sans-serif;
     font-size: 20px;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 #course {
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     margin: auto;
 }
 
@@ -47,7 +47,7 @@ body {
     font-family: var(--header-font);
     /* width:300px;
     height:200px; */
-    padding: 200px 5% 200px 5%;
+    padding: 200px 5%;
     width: 300px;
     height: 470px;
     margin: auto;
@@ -66,7 +66,7 @@ body {
 
 @keyframes mymove {
     from {
-        left: 0px;
+        left: 0;
     }
 
     to {
@@ -83,6 +83,17 @@ body {
     padding: 10px;
     text-align: center;
 
+}
+
+#course .card-text {
+    padding-bottom: 70px;
+}
+
+#course .btn-outline-secondary {
+
+    position: absolute;
+    left: 25%;
+    bottom: 5%;
 }
 
 .logo {
@@ -124,15 +135,7 @@ body {
 
 }
 
-/*#available-courses .card {
-    flex: 1 0 auto;
-  }
-  
-.row {
-    text-align:center;
-    color:#573F35;
-   font-family: var(--body-font);
-}*/
+
 .card {
     min-height: 100%;
 
@@ -143,24 +146,32 @@ body {
     font-family: var(--body-font);
     color: #573F35;
 
-
-
 }
 
-.card-img-top {
-    mask-image: linear-gradient(black, transparent);
-    transition-duration: 5s;
-    transition-delay: 2s;
-    transition-property: mask-image;
+
+
+#available-courses .card {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#available-courses .card-img-top {
     height: 250px;
+    object-fit: cover;
+    filter: blur(5px);
+    transition: filter 0.25s ease;
     object-fit: cover;
 }
 
-.card-img-top:hover,
-card-img-top:focus {
-    mask-image: unset;
-
+#available-courses .card-img-top:hover {
+    filter: blur(0);
 }
+
+#available-courses .card:hover .card-img-top {
+    filter: blur(0);
+}
+
+
 
 .btn-outline-secondary {
     color: #573F35;
@@ -258,7 +269,7 @@ footer .row {
 #pictures .card {
     max-width: 100%;
     height: 400px;
-    border-radius: 0%;
+    border-radius: 0;
     --bs-border-width: 0;
 }
 
@@ -278,15 +289,6 @@ footer .row {
     right: 0;
 }
 
-/* visibility: hidden; 
-}
-.card-text.position-absolute.bottom-0:hover {
-    visibility: visible;
-}
-@keyframes showtext {
-    from {visibility: hidden;}
-  to {visibility: visible;}
-  } */
 
 /* styles for the workshop page */
 #course-header {
@@ -403,6 +405,32 @@ input[type=submit] {
     #hero-image {
         background: url(images/pexels-ono-kosuki-5974404\ large.jpg) no repeat center center;
     }
+
+    .workshop {
+        padding-bottom: 5%;
+
+    }
+
+    .workshop .container {
+        max-width: 100%;
+
+
+        .row-cols-2 {
+            padding-left: 100px;
+        }
+    }
+
+    .workshop .card-img-top {
+        height: 333px;
+    }
+
+    .workshop .card {
+        padding-bottom: 10%;
+    }
+
+    .workshop .btn {
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -413,7 +441,7 @@ input[type=submit] {
 
     .navbar-nav.ms-auto {
         bottom: 0px;
-  left: 200px;
+        left: 200px;
     }
 }
 
@@ -450,15 +478,7 @@ input[type=submit] {
 
     }
 
-    @media only screen and (min-width:1100px) {
-        .workshop .container {
-            max-width: 100%;
-        }
 
-        .row-cols-2 {
-            padding-left: 100px;
-        }
-    }
 
     @media only screen and (max-width: 576px) {
         .logo {
@@ -508,9 +528,9 @@ input[type=submit] {
     }
 
     .navbar-expand-sm .navbar-nav {
-        font-size: 3vh;
+        font-size: 2vh;
         position: absolute;
-        left: 25%;
+        left: -110px;
         flex-direction: row;
         text-align: center;
         height: 100%;
@@ -571,13 +591,14 @@ input[type=submit] {
 
     .workshop .card {
         max-width: unset;
+        max-height:unset;
+        margin-bottom:0;
 
     }
 
     #pictures img {
         height: 100%;
         object-fit: cover;
-        top: left;
         top: 0;
         position: absolute;
         left: 0;
@@ -611,10 +632,13 @@ input[type=submit] {
         height: 100%;
         text-align: center;
     }
+.pictures .card-text {
+    left:0;
+    padding:5%;
 }
 
-@media query and (max-width:480px) {
-    .navbar-expand-sm .navbar-nav {
-        left: 15%;
+    @media query and (max-width:480px) {
+        .navbar-expand-sm .navbar-nav {
+            left: 15%;
+        }
     }
-}
