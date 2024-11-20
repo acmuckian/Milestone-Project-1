@@ -414,7 +414,7 @@ input[type=submit] {
 /* media queries below */
 @media only screen and (min-width:1100px) {
     #hero-image {
-        background: url(images/pexels-ono-kosuki-5974404\ large.jpg) no repeat center center;
+        background: url(images/pexels-ono-kosuki-5974404\ large.jpg) no-repeat center center;
     }
 
     .workshop {
@@ -425,7 +425,7 @@ input[type=submit] {
     .workshop .container {
         max-width: 100%;
 
-
+    }
         .row-cols-2 {
             padding-left: 100px;
         }
@@ -676,7 +676,7 @@ input[type=submit] {
         }
     }
 
-    @media query and (max-width:480px) {
+    @media only screen and (max-width:480px) {
         .navbar-expand-sm .navbar-nav {
             left: 15%;
         }
