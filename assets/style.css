@@ -229,12 +229,12 @@ footer .row {
     color: #FFE8C8;
 }
 
-#content a {
+#contact a {
     text-decoration: none;
     color: unset;
 }
 
-#content a:visited,
+#contact a:visited,
 a:hover {
     color: unset;
 }
@@ -249,7 +249,7 @@ a:hover {
     max-height: 350px;
     max-width: 100%;
     overflow: hidden;
-    background-color: #B49777;
+    
 }
 
 #gallery-about .card {
@@ -261,7 +261,7 @@ a:hover {
 #gallery-about .card-body {
     height: 100%;
     text-align: center;
-    padding: 8.5%;
+    padding: 2%;
 }
 
 #gallery-about img {
