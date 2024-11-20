@@ -584,10 +584,10 @@ input[type=submit] {
         width: 100%;
     }
 
-    .col-6 {
+    /* .col-6 {
         max-width: 100%;
         width: 100%;
-    }
+    } */
 
     .carousel-inner {
         max-width: 100%;
@@ -665,7 +665,7 @@ input[type=submit] {
         }
     }
 }
-@media (pointer:course) {
+@media (pointer:coarse) {
     #available-courses .card-img-top {
         filter:blur(0);
     }
