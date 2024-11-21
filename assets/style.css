@@ -172,10 +172,16 @@ body {
 }
 
 
-
+#available-courses .btn-outline-secondary {
+    padding: 20%;
+    position:absolute;
+    left:25%;
+    bottom:2%
+}
 .btn-outline-secondary {
     color: #573F35;
     border-color: #513B2E;
+
 }
 
 .btn-outline-secondary:hover {
@@ -485,6 +491,15 @@ input[type=submit] {
         font-size: 2vh;
     }
 
+    @keyframes mymove {
+        from {
+            left: -150px;
+        }
+
+        to {
+            left: 0px;
+        }
+    }
     #available-courses .card-body {
         padding-bottom: 15%;
     }
@@ -705,7 +720,7 @@ input[type=submit] {
             left: 15%;
         }
     }
-}
+
 
 @media (pointer:coarse) {
     #available-courses .card-img-top {
