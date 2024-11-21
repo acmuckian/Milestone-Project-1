@@ -108,6 +108,27 @@ HTML, CSS, Javascript
 * Firefox Dev Tools - for troubleshooting the features and the code of the website.
 
 ## Testing 
+
+## Lighthouse 
+
+Lighthouse was used in the Chrome Developer Tools to test performance, accessibility, best practices and SEO of the website. 
+
+### Desktop Results
+
+All pages achieved scores of over 90 in the four categories.
+![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index.png)
+![Screenshot of Workshop HTML Lighthouse Result](assets/images/lighthouse-results-workshop.png)
+![Screenshot of Gallery HTML Lighthouse Result](assets/images/gallery-lighthouse-results.png)
+![Screenshot of Sign Up HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
+![Screenshot of Confirmation HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
+
+### Mobile Results 
+![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index.png)
+![Screenshot of Workshop HTML Lighthouse Result](assets/images/lighthouse-results-workshop.png)
+![Screenshot of Gallery HTML Lighthouse Result](assets/images/gallery-lighthouse-results.png)
+![Screenshot of Sign Up HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
+![Screenshot of Confirmation HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
+
 ### Feature Testing  
 
 #### Home Page 
@@ -174,6 +195,8 @@ HTML, CSS, Javascript
 
 * **Expectation** As a visitor after I have read the courses, I want to be able to enquire about booking. 
 * **Result** Below the courses on the workshops page, there is a button to click that sends me to an enquiry form. 
+
+
 
 ## Deployment 
 
