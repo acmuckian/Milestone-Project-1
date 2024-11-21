@@ -359,13 +359,12 @@ a:hover {
 }
 
 .workshop .card {
-    min-height: 40rem;
     height: fit-content;
-    max-height: 40rem;
+
 }
 
 .workshop .card-body {
-    height: 244px;
+    height: 300px;
     flex-shrink: 0;
 }
 
@@ -433,13 +432,17 @@ input[type=submit] {
         left:30%;
     }
 
-    .workshop {
-        padding-bottom: 5%;
-
+    .workshop .row {
+        margin-left:10%;
+        margin-right:10%;
     }
 
     .workshop .container {
         max-width: 100%;
+
+    }
+    .workshop .card-body {
+        padding-top:5%;
 
     }
 
@@ -470,6 +473,9 @@ input[type=submit] {
     .navbar-nav.ms-auto {
         bottom: 0px;
         position: absolute;
+    }
+    .workshop .card-body {
+        height:350px;
     }
 }
 
