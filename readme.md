@@ -116,11 +116,11 @@ HTML, CSS, Javascript
 
 [WSC](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* Index:
-* Gallery:
-* Workshop:
-* Sign Up:
-* Confirmation: 
+* Index: Pass, no errors or warnings. [https://validator.w3.org/nu/?doc=https%3A%2F%2Facmuckian.github.io%2FMilestone-Project-1%2Fgallery.html]
+* Gallery: Pass, no errors or warnings. [Link for testing here](https://validator.w3.org/nu/?doc=https%3A%2F%2Facmuckian.github.io%2FMilestone-Project-1%2Fgallery.html)
+* Workshop: Pass, no errors or warnings. [Link for testing here](https://validator.w3.org/nu/?doc=https%3A%2F%2Facmuckian.github.io%2FMilestone-Project-1%2Fworkshop.html)
+* Sign Up: Pass, no errors or warnings. [Link for testing here](https://validator.w3.org/nu/?doc=https%3A%2F%2Facmuckian.github.io%2FMilestone-Project-1%2Fsignup.html)
+* Confirmation: Pass, no errors or warnings. [Link to testing here](https://validator.w3.org/nu/?doc=https%3A%2F%2Facmuckian.github.io%2FMilestone-Project-1%2Fconfirmation.html)
 ### Lighthouse 
 
 Lighthouse was used in the Chrome Developer Tools to test performance, accessibility, best practices and SEO of the website. 
