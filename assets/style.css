@@ -664,6 +664,7 @@ input[type=submit] {
 
         footer {
             display: inline;
+            padding-top:40px;
         }
 
         footer .logo {
@@ -762,3 +763,4 @@ input[type=submit] {
             filter: blur(0);
         }
     }
+}
