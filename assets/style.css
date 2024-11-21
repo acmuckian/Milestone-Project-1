@@ -609,7 +609,7 @@ input[type=submit] {
         }
 
         #hero-image {
-            background-image: url(images/pexels-ono-kosuki-5974404-crop.webp) no-repeat center center;
+            background: url(images/pexels-ono-kosuki-5974404-crop.webp) no-repeat center center;
         }
 
         @keyframes mymove {
