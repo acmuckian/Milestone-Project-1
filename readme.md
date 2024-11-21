@@ -110,16 +110,18 @@ Firefox Dev Tools - for troubleshooting the features and the code of the website
 ## Testing 
 ### Feature Testing  
 
+#### Home Page 
 
-| **Feature**              | **Expect**                                                   | **Action**                | **Result**                                                  |
-|--------------------------|--------------------------------------------------------------|---------------------------|-------------------------------------------------------------|
-| **Home Navbar Button**   | when click on home, homepage opens                           | clicked on home at navbar | homepage opened when clicked                                |
-| **Social media icons**   | social media website opens in a new tab when icon clicked    | clicked social media icon | link opened at new tab and to correct site                  |
-| **Testimonial carousel** | Testimonial carousel changes but not too fast between quotes | Loaded home page          | carousel changes at a good speed to allow quotes to be read |
-| **Cards**                | when hover over the cards, the image becomes unmasked        | hover over the card image | image becomes unmasked and clear                            |
-| **Enquiry Button**     | when click on the enquiry button in workshop page, enquiry page opens | clicked on enquiry button | Enquire page opens                      |
-| **Personal Info**      | form requires personal information before being submitted      | try to submit without personal info | unable to submit, tells you what information is required |
-| **Submit Button**      | when clicking on the submit button in the signup page, thank you message appears | click on submit | thank you page appears            |
+| **Feature**                    | **Expected Outcome**                                                                           | **Testing**                  | **Result**                                | Pass/Fail |
+|--------------------------------|------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------|-----------|
+| Site Logo                      | Link in the logo redirects the user to the main page                                           | Clicked title on all 5 pages | Home page (re)loads                       | Pass      |
+| All Navigation Bar Titles      | Links the user to the correct page, i.e clicking "gallery" brings the user to the gallery page | Clicked the titles           | Correct page loads for each title         | Pass      |
+| Home page cards - hover effect | When hovered, the image should not be blurred                                                  | Hover over the card          | Image unblurs                             | Pass      |
+| All Social Media Icons         | when clicked on opens the social media website in a new page                                   | click on the relevant icon   | opens the social media site in a new page | Pass      |
+|                                |                                                                                                |                              |                                           |           |
+#### Workshop Page 
+
+
 
 ### User Stories Testing 
 
