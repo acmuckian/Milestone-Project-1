@@ -141,7 +141,7 @@ body {
 
 }
 
- .card-body {
+.card-body {
     background-color: rgba(81, 59, 46, 0.1);
     font-family: var(--body-font);
     color: #573F35;
@@ -173,10 +173,11 @@ body {
 
 
 #available-courses .btn-outline-secondary {
-    position:absolute;
-    left:25%;
-    bottom:2%
+    position: absolute;
+    left: 25%;
+    bottom: 2%
 }
+
 .btn-outline-secondary {
     color: #573F35;
     border-color: #513B2E;
@@ -271,10 +272,11 @@ a:hover {
     background-color: rgba(81, 59, 46, 0.1);
     font-family: var(--body-font);
     color: #573F35;
-    
+
 }
+
 #gallery-about .card-text {
-    font-size:2vh;
+    font-size: 2vh;
 }
 
 #gallery-about img {
@@ -368,6 +370,10 @@ a:hover {
     flex-shrink: 0;
 }
 
+.d-grid .btn-outline-secondary {
+    margin-bottom: 5%;
+}
+
 /* styles for the Enquire page */
 
 #signup {
@@ -428,21 +434,23 @@ input[type=submit] {
     #hero-image {
         background: url(images/pexels-ono-kosuki-5974404\ large.jpg) no-repeat center center;
     }
+
     #available-courses .btn-outline-secondary {
-        left:30%;
+        left: 30%;
     }
 
     .workshop .row {
-        margin-left:10%;
-        margin-right:10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .workshop .container {
         max-width: 100%;
 
     }
+
     .workshop .card-body {
-        padding-top:5%;
+        padding-top: 5%;
 
     }
 
@@ -473,9 +481,11 @@ input[type=submit] {
     .navbar-nav.ms-auto {
         bottom: 0px;
         position: absolute;
+        left: -50px;
     }
+
     .workshop .card-body {
-        height:350px;
+        height: 350px;
     }
 }
 
@@ -516,6 +526,7 @@ input[type=submit] {
             left: 0px;
         }
     }
+
     #available-courses .card-body {
         padding-bottom: 15%;
     }
@@ -543,8 +554,8 @@ input[type=submit] {
 
     .workshop .card {
         margin-bottom: 10%;
-        min-height:unset;
-        max-height:unset;
+        min-height: unset;
+        max-height: unset;
 
     }
 
@@ -552,6 +563,7 @@ input[type=submit] {
         height: 310px;
 
     }
+
     .d-grid .btn-outline-secondary {
         margin-bottom: 5%;
     }
@@ -609,11 +621,13 @@ input[type=submit] {
             max-width: 100vw;
             display: block;
         }
+
         #available-courses .card-body {
             padding: 5% 2% 10% 2%;
         }
+
         #available-courses .btn-outline-secondary {
-            left:35%;
+            left: 35%;
         }
 
         .navbar>.container {
@@ -657,13 +671,13 @@ input[type=submit] {
 
         }
 
-   
+
 
         .picture-col {
             width: 100%;
         }
 
-   
+
 
         .carousel-inner {
             max-width: 100%;
@@ -743,8 +757,8 @@ input[type=submit] {
     }
 
 
-@media (pointer:coarse) {
-    #available-courses .card-img-top {
-        filter: blur(0);
+    @media (pointer:coarse) {
+        #available-courses .card-img-top {
+            filter: blur(0);
+        }
     }
-} 
