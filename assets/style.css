@@ -173,7 +173,6 @@ body {
 
 
 #available-courses .btn-outline-secondary {
-    padding: 20%;
     position:absolute;
     left:25%;
     bottom:2%
@@ -422,6 +421,9 @@ input[type=submit] {
     #hero-image {
         background: url(images/pexels-ono-kosuki-5974404\ large.jpg) no-repeat center center;
     }
+    #available-courses .btn-outline-secondary {
+        left:30%;
+    }
 
     .workshop {
         padding-bottom: 5%;
@@ -588,6 +590,12 @@ input[type=submit] {
             max-width: 100vw;
             display: block;
         }
+        #available-courses .card-body {
+            padding: 5% 2%;
+        }
+        #available-courses .btn-outline-secondary {
+            left:35%;
+        }
 
         .navbar>.container {
             position: relative;
@@ -630,19 +638,13 @@ input[type=submit] {
 
         }
 
-        /* #contact .row {
-        display: block;
-
-    } */
+   
 
         .picture-col {
             width: 100%;
         }
 
-        /* .col-6 {
-        max-width: 100%;
-        width: 100%;
-    } */
+   
 
         .carousel-inner {
             max-width: 100%;
