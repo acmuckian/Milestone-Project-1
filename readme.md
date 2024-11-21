@@ -19,6 +19,10 @@ homepage, workshops, gallery, sign-up pages and is identical in each page to all
 
 **Banner with Hero Image**
 
+* This is featured on the home page, it is a simple image of someone demonstrating woodworking techniques and over the image, the text for the website slides across.
+
+![Picture of Hero Image](assets/images/hero-image.png)
+
 **Available Courses as Cards**
 
 * Using the Bootstrap CSS for the cards with a few adjustments on the home page, this section neatly displays the upcoming courses in woodworking and 
@@ -45,6 +49,18 @@ the testimonial about the courses and flicks through automatically so the end-us
 * The gallery features some of the objects that Tim has crafted with a small description on the bottom-right of each picture so the user can easily read what they are.
 
 ![Screenshot of gallery section](assets/images/gallery.png)
+
+**Form** 
+
+* The form is simple and easy to fill out, with personal information such as name, email, and phone required so we can get back in touch with enquiries. 
+
+![Screenshot of the form](assets/images/form%20screenshot.png)
+
+**Enquiry Confirmation**
+
+* This page appears when an enquiry is successfully submitted, letting the user know we'll get in touch soon.
+
+![Screenshot of confirmation page](assets/images/confirmation.png)
 
 ## UX 
 
