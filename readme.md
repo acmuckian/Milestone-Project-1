@@ -129,8 +129,10 @@ HTML, CSS, Javascript
 ### Validation 
 
 #### WSC Validation 
+[Am I responsive?](https://ui.dev/) was used to test the responsiveness on mobile, desktop and tablet. [Find the test here](https://ui.dev/amiresponsive?url=https://acmuckian.github.io/Milestone-Project-1)
+[Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate the CSS on all pages of the website and there were no errors.
+[WSC](https://validator.w3.org/) was used to validate the HTML on all pages of the website. 
 
-[WSC](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
 * Index: Pass, no errors or warnings. [https://validator.w3.org/nu/?doc=https%3A%2F%2Facmuckian.github.io%2FMilestone-Project-1%2Fgallery.html]
 * Gallery: Pass, no errors or warnings. [Link for testing here](https://validator.w3.org/nu/?doc=https%3A%2F%2Facmuckian.github.io%2FMilestone-Project-1%2Fgallery.html)
@@ -243,7 +245,7 @@ All pages achieved scores of over 90 in the four categories.
 
 ### Deployment 
 
-This site is deployed using GitHub Pages. Please see the deployed site [here](). To deploy using GitHub pages: 
+This site is deployed using GitHub Pages. Please see the deployed site [here](https://acmuckian.github.io/Milestone-Project-1). To deploy using GitHub pages: 
 1. Login to GitHub. 
 2. Open the relevant project repository.
 3. Click on "Settings" in the navigation bar under the repository title.
@@ -273,9 +275,11 @@ The repository was also cloned for local deployment. To clone the repository:
 * [Bootstrap - Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
 * [Web.Dev - Lazy Loading](https://web.dev/articles/browser-level-image-lazy-loading)
 * [HTMLImageElement: decoding property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding)
+* [Stackflow - Media Query to detect if device is touchscreen](https://stackoverflow.com/questions/11387805/media-query-to-detect-if-device-is-touchscreen)
 
 **Photographs:** 
-
+The photographs found online had a creative commons license for use. Tim's instagram was used with consent. 
+* [Dovetail Jewellery Box - Didriks](https://www.flickr.com/photos/dinnerseries/12840586513/)
 * [LiCheh Pan's photograph on a dovetail](https://www.flickr.com/photos/plj/6363104049)
 * [Dominik Scythe](https://unsplash.com/photos/person-using-chisel-while-curving-wood-3cIvvzjE6Lk)
 * [Gary Yost](https://unsplash.com/photos/brown-wooden-birdhouse-with-red-flowers-2CAqKogS3Fk)
@@ -284,3 +288,6 @@ The repository was also cloned for local deployment. To clone the repository:
 * [Ono Kosuki](https://www.pexels.com/photo/person-using-tools-in-woodworking-5974404/)
 * [Tim Hamilton on Instagram](https://www.instgram.com/timhamiltoncraft)
 * [Christmas Bauble - Pixabay](https://pixabay.com/zh/photos/christmas-star-christmas-tree-1108601/)
+* [Andrej Lisakov on Unsplash](https://unsplash.com/photos/close-up-photo-of-wooden-panel-1Bg9Wlq3wXk)
+* [Flicker -  Jordanhill School D&T Department](https://www.flickr.com/photos/designandtechnologydepartment/4112363445)
+* [Adam Patterson](https://unsplash.com/photos/brown-wooden-table-with-white-printer-papers-v13x0qU4afA)
