@@ -106,6 +106,7 @@ HTML, CSS, Javascript
 * Font Awesome - for the iconography on the website. 
 * Google Dev Tools - for troubleshooting the features and the code of the website.
 * Firefox Dev Tools - for troubleshooting the features and the code of the website.
+* Canva - was used to make the logos for the website. 
 
 ## Testing 
 
@@ -204,22 +205,23 @@ All pages achieved scores of over 90 in the four categories.
 
 This site is deployed using GitHub Pages. Please see the deployed site [here](). To deploy using GitHub pages: 
 1. Login to GitHub. 
-2. Open the relevant project respository.
-3. Click on "Settings" in the navigation bar under the respository title.
+2. Open the relevant project repository.
+3. Click on "Settings" in the navigation bar under the repository title.
 4. Click on "Pages" at the left-hand sidebar.
-5. Under "Source", choose which branch to deploy. Main is used for this respository.
+5. Under "Source", choose which branch to deploy. Main is used for this repository.
 6. Choose which folder to deploy from, usually "/root".
 7. Click "Save" and wait for the deployment. 
 8. The URL should be displayed above "source" and on the "Code" page, on the right-hand sidebar under the "Deployments" subheading.
 
 ### Local Deployment 
 
-The respository was also cloned for local deployment. To clone the respository: 
+The repository was also cloned for local deployment. To clone the repository: 
 
 1. Login to Github. 
-2. Go to the respository for this project: 
-3. Click on the green "Code" button on the respository main page, select whether to clone with HTTPS, GitHub CLI and copy the link shown, 
+2. Go to the repository for this project: 
+3. Click on the green "Code" button on the repository main page and copy the link shown.
 4. Open the terminal in the code editor 
+5. Clone the repository.
 ## Credits 
 
 * [W3 Schools guidance on Mask-Image and Masking in CSS](https://www.w3schools.com/css/css3_masking.asp)
@@ -230,6 +232,7 @@ The respository was also cloned for local deployment. To clone the respository:
 * [Bootstrap - Cards](https://getbootstrap.com/docs/5.3/components/card/)
 * [Bootstrap - Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
 * [Web.Dev - Lazy Loading](https://web.dev/articles/browser-level-image-lazy-loading)
+* [HTMLImageElement: decoding property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding)
 
 **Photographs:** 
 
