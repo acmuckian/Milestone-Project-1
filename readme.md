@@ -110,11 +110,22 @@ HTML, CSS, Javascript
 
 ## Testing 
 
-## Lighthouse 
+### Validation 
+
+#### WSC Validation 
+
+[WSC](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+
+* Index:
+* Gallery:
+* Workshop:
+* Sign Up:
+* Confirmation: 
+### Lighthouse 
 
 Lighthouse was used in the Chrome Developer Tools to test performance, accessibility, best practices and SEO of the website. 
 
-### Desktop Results
+#### Desktop Results
 
 All pages achieved scores of over 90 in the four categories.
 ![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index.png)
@@ -123,7 +134,7 @@ All pages achieved scores of over 90 in the four categories.
 ![Screenshot of Sign Up HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
 ![Screenshot of Confirmation HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
 
-### Mobile Results 
+#### Mobile Results 
 ![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index.png)
 ![Screenshot of Workshop HTML Lighthouse Result](assets/images/lighthouse-results-workshop.png)
 ![Screenshot of Gallery HTML Lighthouse Result](assets/images/gallery-lighthouse-results.png)
