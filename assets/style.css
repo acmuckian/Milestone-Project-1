@@ -34,6 +34,7 @@ body {
     height: 470px;
     background: url(images/pexels-ono-kosuki-5974404.webp) no-repeat center center;
     overflow: hidden;
+    object-fit: cover;
 
 }
 
@@ -599,14 +600,16 @@ input[type=submit] {
         .selected {
             height: 100%;
         }
+
         #cover-text {
             max-width: 100vw;
 
             left: 0%;
             width: 100%;
         }
+
         #hero-image {
-            background-image:url(images/pexels-ono-kosuki-5974404-small.jpg) no-repeat center center;
+            background-image: url(images/pexels-ono-kosuki-5974404-crop.webp) no-repeat center center;
         }
 
         @keyframes mymove {
@@ -666,7 +669,7 @@ input[type=submit] {
 
         footer {
             display: inline;
-            padding-top:40px;
+            padding-top: 40px;
         }
 
         footer .logo {
