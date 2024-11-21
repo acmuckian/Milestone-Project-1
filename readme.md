@@ -135,15 +135,13 @@ All pages achieved scores of over 90 in the four categories.
 ![Screenshot of Confirmation HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
 
 #### Mobile Results 
-![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index.png)
-![Screenshot of Workshop HTML Lighthouse Result](assets/images/lighthouse-results-workshop.png)
-![Screenshot of Gallery HTML Lighthouse Result](assets/images/gallery-lighthouse-results.png)
-![Screenshot of Sign Up HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
-![Screenshot of Confirmation HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
+![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index-mobile.png)
+![Screenshot of Workshop HTML Lighthouse Result](assets/images/lighthouse-results-workshop-mobile.png)
+![Screenshot of Gallery HTML Lighthouse Result](assets/images/gallery-mobile-result.png)
+![Screenshot of Sign Up HTML Lighthouse Result](assets/images/lighthouse-mobile-signup.png)
+![Screenshot of Confirmation HTML Lighthouse Result](assets/images/confirmation-mobile-results.png)
 
 ### Feature Testing  
-
-#### Home Page 
 
 | **Feature**                    | **Expected Outcome**                                                                           | **Testing**                  | **Result**                                | Pass/Fail |
 |--------------------------------|------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------|-----------|
