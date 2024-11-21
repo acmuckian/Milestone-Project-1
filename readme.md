@@ -225,17 +225,19 @@ The respository was also cloned for local deployment. To clone the respository:
 * [W3 Schools guidance on Mask-Image and Masking in CSS](https://www.w3schools.com/css/css3_masking.asp)
 * [This guide on how to make a footer stay at the bottom of the webpage](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
 * [W3 Schools Guide on Object-Fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
-* 
-[W3 Schools Blur TryIt Editor](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_filter_blur)
+* [W3 Schools Blur TryIt Editor](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_filter_blur)
 * [Bootstrap - Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
 * [Bootstrap - Cards](https://getbootstrap.com/docs/5.3/components/card/)
 * [Bootstrap - Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
+* [Web.Dev - Lazy Loading](https://web.dev/articles/browser-level-image-lazy-loading)
 
 **Photographs:** 
 
 * [LiCheh Pan's photograph on a dovetail](https://www.flickr.com/photos/plj/6363104049)
 * [Dominik Scythe](https://unsplash.com/photos/person-using-chisel-while-curving-wood-3cIvvzjE6Lk)
 * [Gary Yost](https://unsplash.com/photos/brown-wooden-birdhouse-with-red-flowers-2CAqKogS3Fk)
-* [Alex Gruber]()
+* [Drop Leaf Dining Table - Met Museum](https://www.metmuseum.org/art/collection/search/3172)
+* [Ash Cherry and Walnut Console - Seth Rolland](https://sethrolland.com/abanico-hall-table/)
 * [Ono Kosuki](https://www.pexels.com/photo/person-using-tools-in-woodworking-5974404/)
 * [Tim Hamilton on Instagram](https://www.instgram.com/timhamiltoncraft)
+* [Christmas Bauble - Pixabay](https://pixabay.com/zh/photos/christmas-star-christmas-tree-1108601/)
