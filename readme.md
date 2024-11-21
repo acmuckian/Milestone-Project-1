@@ -99,13 +99,13 @@ HTML, CSS, Javascript
 
 #### Frameworks, Libraries and Programs Used
 
-Git - for version control.
-Github - to save and store files for the website. 
-Coolors - to show the colour palette for the website.
-Google Fonts - to import the fonts on the website.
-Font Awesome - for the iconography on the website. 
-Google Dev Tools - for troubleshooting the features and the code of the website.
-Firefox Dev Tools - for troubleshooting the features and the code of the website.
+* Git - for version control.
+* Github - to save and store files for the website. 
+* Coolors - to show the colour palette for the website.
+* Google Fonts - to import the fonts on the website.
+* Font Awesome - for the iconography on the website. 
+* Google Dev Tools - for troubleshooting the features and the code of the website.
+* Firefox Dev Tools - for troubleshooting the features and the code of the website.
 
 ## Testing 
 ### Feature Testing  
@@ -120,8 +120,43 @@ Firefox Dev Tools - for troubleshooting the features and the code of the website
 | All Social Media Icons         | when clicked on opens the social media website in a new page                                   | click on the relevant icon   | opens the social media site in a new page | Pass      |
 |                                |                                                                                                |                              |                                           |           |
 #### Workshop Page 
+| **Feature**                      | **Expected Outcome**                                                                           | **Testing**                  | **Result**                                | Pass/Fail |
+|----------------------------------|------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------|-----------|
+| Site Logo                        | Link in the logo redirects the user to the main page                                           | Clicked title on all 5 pages | Home page (re)loads                       | Pass      |
+| All Navigation Bar Titles        | Links the user to the correct page, i.e clicking "gallery" brings the user to the gallery page | Clicked the titles           | Correct page loads for each title         | Pass      |
+| Enquire about our courses button | when clicked on, brings the user to the enquiry page                                           | click on the button          | brings the user to the enquiry page       | Pass      |
+| All Social Media Icons           | when clicked on opens the social media website in a new page                                   | click on the relevant icon   | opens the social media site in a new page | Pass      |
+| Find out more button             | when clicked on opens the workshop page and the specific course                                | click on the button          | opens the course on the workshop page     | Pass      |
 
+#### Gallery Page 
 
+| **Feature**               | **Expected Outcome**                                                                           | **Testing**                  | **Result**                                | Pass/Fail |
+|---------------------------|------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------|-----------|
+| Site Logo                 | Link in the logo redirects the user to the main page                                           | Clicked title on all 5 pages | Home page (re)loads                       | Pass      |
+| All Navigation Bar Titles | Links the user to the correct page, i.e clicking "gallery" brings the user to the gallery page | Clicked the titles           | Correct page loads for each title         | Pass      |
+| All Social Media Icons    | when clicked on opens the social media website in a new page                                   | click on the relevant icon   | opens the social media site in a new page | Pass      |
+| Find out more button      | when clicked on opens the workshop page and the specific course                                | click on the button          | opens the course on the workshop page     | Pass      |
+
+#### Enquiry Page 
+
+| **Feature**               | **Expected Outcome**                                                                              | **Testing**                                 | **Result**                                | Pass/Fail |
+|---------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------|-------------------------------------------|-----------|
+| Personal Information      | Try to submit without the name, phone no. or email, and it will require you to fill out the field | Hit submit button                           | Asks you to fill out the relevant field   | Pass      |
+| Email                     | If an email address is not entered, it will ask for an email address with an @                    | enter without an email with an @            | asks to insert an email with an @         | Pass      |
+| Submit                    | Opens the confirmation page                                                                       | Enter all information and hit submit button | opens the confirmation page               | Pass      |
+| Site Logo                 | Link in the logo redirects the user to the main page                                              | Clicked title on all 5 pages                | Home page (re)loads                       | Pass      |
+| All Navigation Bar Titles | Links the user to the correct page, i.e clicking "gallery" brings the user to the gallery page    | Clicked the titles                          | Correct page loads for each title         | Pass      |
+| All Social Media Icons    | when clicked on opens the social media website in a new page                                      | click on the relevant icon                  | opens the social media site in a new page | Pass      |
+| Find out more button      | when clicked on opens the workshop page and the specific course                                   | click on the button                         | opens the course on the workshop page     | Pass      |
+
+#### Confirmation Page 
+
+| **Feature**               | **Expected Outcome**                                                                           | **Testing**                  | **Result**                                | Pass/Fail |
+|---------------------------|------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------|-----------|
+| Site Logo                 | Link in the logo redirects the user to the main page                                           | Clicked title on all 5 pages | Home page (re)loads                       | Pass      |
+| All Navigation Bar Titles | Links the user to the correct page, i.e clicking "gallery" brings the user to the gallery page | Clicked the titles           | Correct page loads for each title         | Pass      |
+| All Social Media Icons    | when clicked on opens the social media website in a new page                                   | click on the relevant icon   | opens the social media site in a new page | Pass      |
+| Find out more button      | when clicked on opens the workshop page and the specific course                                | click on the button          | opens the course on the workshop page     | Pass      |
 
 ### User Stories Testing 
 
