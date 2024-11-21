@@ -54,7 +54,7 @@ the testimonial about the courses and flicks through automatically so the end-us
 
 * The form is simple and easy to fill out, with personal information such as name, email, and phone required so we can get back in touch with enquiries. 
 
-![Screenshot of the form](assets/images/form%20screenshot.png)
+![Screenshot of the form](assets/images/form_screenshot.png)
 
 **Enquiry Confirmation**
 
@@ -149,8 +149,8 @@ All pages achieved scores of over 90 in the four categories.
 ![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index.png)
 ![Screenshot of Workshop HTML Lighthouse Result](assets/images/lighthouse-results-workshop.png)
 ![Screenshot of Gallery HTML Lighthouse Result](assets/images/gallery-lighthouse-results.png)
-![Screenshot of Sign Up HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
-![Screenshot of Confirmation HTML Lighthouse Result](assets/images/signup%20html%20lighthouse.png)
+![Screenshot of Sign Up HTML Lighthouse Result](assets/images//signup-html-lighthouse.png)
+![Screenshot of Confirmation HTML Lighthouse Result](assets/images/confirmation-lighthouse-results.png)
 
 #### Mobile Results 
 ![Screenshot of Index HTML Lighthouse Result](assets/images/lighthouse-results-index-mobile.png)
