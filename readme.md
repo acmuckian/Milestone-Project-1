@@ -87,7 +87,7 @@ For the main body text, the font Afacad Flux was used. This is a sans-serif font
 The wireframes were created using the website Wireframe.cc for tablet, desktop and mobile. 
 
 Wireframes are as listed below:
-* **Home Page** [Desktop](https://wireframe.cc/vgawco) [Tablet]() [Mobile](https://wireframe.cc/mlVBo0) 
+* **Home Page** [Desktop](https://wireframe.cc/vgawco) [Tablet](https://wireframe.cc/bvp4JK) [Mobile](https://wireframe.cc/mlVBo0) 
 * **Gallery** [Desktop](https://wireframe.cc/UfeOIv) [Tablet](https://wireframe.cc/eMkP4q) [Mobile](https://wireframe.cc/Lkd1Bg)
 * **Workshop** [Desktop](https://wireframe.cc/DMe4PU) [Tablet](https://wireframe.cc/etnUFP) [Mobile](https://wireframe.cc/t6s6dB)
 * **Enquire** [Desktop](https://wireframe.cc/lpMVxV) [Tablet](https://wireframe.cc/mDcW2n) [Mobile](https://wireframe.cc/iR1wtQ)
