@@ -222,7 +222,22 @@ All pages achieved scores of over 90 in the four categories.
 * **Expectation** As a visitor after I have read the courses, I want to be able to enquire about booking. 
 * **Result** Below the courses on the workshops page, there is a button to click that sends me to an enquiry form. 
 
+* **Expectation** As a visitor, when I submit my enquiry, I want to know if it has been successfully received. 
+* **Result** When the form is submitted with all required information, a thank you message lets me it has been successfully received. 
 
+### Bugs 
+
+#### Solved Bugs 
+
+| **Bug**                                                                                                                                   | **Solution**                                                                                                                                                                                                                                                |
+|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| The hero image did not fit the full width when the screen was over 1100px.                                                            | A media query for the hero image was implemented for devices over 1100px and a larger image is placed here                                                                                                                                              |
+| The buttons on the card at the home page did not align with each other.                                                               | Ensuring the position was absolute in relation to the card's flexible position, and then setting the left and bottom properties so the buttons are fairly central. Media queries were used at various breakpoints.                                      |
+| The navigation bar stretched over the screen at less wide breakpoints.                                                                | This was solved by using the position:absolute property and adjusting the left property at the relevant breakpoint.                                                                                                                                     |
+| Only when the browser cursor hovers over the card image, the image unmasks - it does not if the cursor is on the card body.           | This was resolved by using the filter:blur property instead as it can transition so the hover pseudo-class could be applicable to both the card body and card image. So where the cursor hovers over the image and text of the card, the image unblurs. |
+| The unblur effect did not work when a cursor is not used, i.e a finger on mobile devices.                                             | The media query to detect where the pointer is coarse is used instead, and the transition of the blurred image is turned off.                                                                                                                           |
+| The social media links did not work properly when clicked on.                                                                         | The "https://" part of the url was missing so this was added so the link is fully functional.                                                                                                                                                           |
+| The box behind the text on the navigation bar showing which page the user was on, did not fill the full height of the navigation bar. | The wrong class had been targeted - the link on <a> was selected instead of the div with the class .nav-item which meant it could only have a box around the link text and not the whole section on the navigation bar.                                 |
 
 ## Deployment 
 
